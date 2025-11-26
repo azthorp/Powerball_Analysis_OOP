@@ -47,8 +47,8 @@ Data source:
 
 ## How the Program Works
 
-1. `PowerballDataLoader` opens and reads the CSV file from the resources folder  
+1. PowerballDataLoader opens and reads the CSV file from the resources folder  
 2. Each row is parsed, splitting the “Winning Numbers” into **five picks**  
-3. The program builds five frequency maps—one for each position  
-4. `PowerballAnalysisService` sorts the frequencies and finds the **top N numbers**  
-5. The `Main` class prints the results in a clean, readable format
+3. The program builds five frequency maps one for each position  
+4. PowerballAnalysisService sorts the frequencies and finds the **top N numbers**  
+5. The Main class prints the results in a clean, readable format
